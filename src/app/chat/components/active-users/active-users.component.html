@@ -1,0 +1,5 @@
+<mat-list>
+  <mat-list-item *ngFor="let user of users" [ngClass]="{active: user.username === currentUser.username}" (dblclick)="addUsernameToMessage(user.username)">
+    <span>{{user.username}}</span>
+  </mat-list-item>
+</mat-list>

@@ -1,0 +1,19 @@
+:host {
+  height: 64px;
+  display: block;
+  padding: 0 16px;
+  position: fixed;
+  bottom: 0;
+  right: 300px;
+  left: 0;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+form, .mat-form-field {
+  width: 100%;
+  padding-right: 16px;
+}

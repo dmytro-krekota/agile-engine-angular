@@ -1,0 +1,11 @@
+<form class="app-login-form" [formGroup]="loginForm" (ngSubmit)="login()">
+  <div class="app-login-form__container">
+    <h1 class="mat-h1">Login</h1>
+    <mat-form-field>
+      <input matInput type="text" formControlName="username" placeholder="Username" required autofocus>
+    </mat-form-field>
+    <div>
+      <button mat-raised-button color="primary">Let me in</button>
+    </div>
+  </div>
+</form>

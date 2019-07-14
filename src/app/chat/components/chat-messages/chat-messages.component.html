@@ -1,0 +1,7 @@
+<mat-list>
+  <mat-list-item *ngFor="let message of messages">
+    <span>({{message.date | dateTimeFormat}})</span>
+    <span class="username" (dblclick)="addUsernameToMessage(message.username)">{{message.username}}:</span>
+    <span>{{message.text}}</span>
+  </mat-list-item>
+</mat-list>

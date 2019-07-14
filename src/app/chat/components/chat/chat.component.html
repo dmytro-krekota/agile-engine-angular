@@ -1,0 +1,12 @@
+<app-navbar></app-navbar>
+<!-- <div class="workspace"> -->
+  <mat-drawer-container class="drawer-container">
+    <mat-drawer-content>
+      <app-chat-messages [sendMessage]="sendMessage"></app-chat-messages>
+      <app-send-message #sendMessage></app-send-message>
+    </mat-drawer-content>
+    <mat-drawer mode="side" opened="true" position="end">
+      <app-active-users [sendMessage]="sendMessage"></app-active-users>
+    </mat-drawer>
+  </mat-drawer-container>
+<!-- </div> -->
