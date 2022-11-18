@@ -8,7 +8,7 @@
     "lint": "ng lint"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "0.801.1",
+    "@angular-devkit/build-angular": "15.0.0",
     "@angular/animations": "8.1.1",
     "@angular/cdk": "8.0.2",
     "@angular/cli": "8.1.1",
